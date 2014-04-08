@@ -1,0 +1,103 @@
+////////////////////////////////////////////////
+// Element CSS properties                     //
+//      e.g. utilities for radius, box sizing //
+////////////////////////////////////////////////
+//
+// Required Variables
+$global-radius: 3px !default;
+
+
+// debug
+@mixin d(){
+    background-color: rand-col();
+}
+
+@mixin clearfix() {
+    *zoom:1; // IE
+    &:before,
+    &:after {
+        content: " "; // ie needs space, opera bug
+        display: table; // not block?
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@mixin radius($radius: $global-radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -o-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin box-sizing($type: border-box) {
+    $type: unquote($type);
+    -moz-box-sizing: $type;
+    -webkit-box-sizing: $type;
+    box-sizing: $type;
+}
+
+// $side - Options: left, right, top, bottom
+@mixin side-radius($side, $radius: $global-radius) {
+    $side: unquote($side);
+    @if ($side == left or $side == right) {
+        -moz-border-radius-bottom#{$side}: $radius;
+        -moz-border-radius-top#{$side}: $radius;
+        -webkit-border-bottom-#{$side}-radius: $radius;
+        -webkit-border-top-#{$side}-radius: $radius;
+        border-bottom-#{$side}-radius: $radius;
+        border-top-#{$side}-radius: $radius;
+    } @else {
+        -moz-border-radius-#{$side}left: $radius;
+        -moz-border-radius-#{$side}right: $radius;
+        -webkit-border-#{$side}-left-radius: $radius;
+        -webkit-border-#{$side}-right-radius: $radius;
+        border-#{$side}-left-radius: $radius;
+        border-#{$side}-right-radius: $radius;
+    }
+}
+
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+@mixin square($size) {
+  @include size($size, $size);
+}
+
+// slaceholder text
+@mixin placeholder($color) {
+  &::-moz-placeholder           { color: $color; }
+  &:-ms-input-placeholder       { color: $color; }
+  &::-webkit-input-placeholder  { color: $color; }
+}
+
+// opacity
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: ($opacity * 100);
+  filter: #{alpha(opacity=$opacity-ie)}; // IE 8
+}
+
+
+@mixin transition($transition...) {
+  -webkit-transition: $transition;
+          transition: $transition;
+}
+// Drop shadows
+@mixin box-shadow($shadow...) {
+  -webkit-box-shadow: $shadow;
+          box-shadow: $shadow;
+}
+
+// flex
+@mixin flex($flow: row wrap){
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-flex-flow: $flow;
+    -moz-flex-flow: $flow;
+    flex-flow: $flow;
+}

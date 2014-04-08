@@ -1,0 +1,32 @@
+///////////////
+// Main SCSS //
+///////////////
+@import "functions/_functions.global";
+@import "vars/_vars.global.default";
+@import "mixins/_mixins.global";
+
+// Media Queries
+@import "mixins/_mixins.breakpoints";
+@import "mixins/_mixins.font";
+@import "mixins/_mixins.grid";
+@import "mixins/_mixins.navigation";
+
+
+// Grid
+@import "functions/_functions.grid";
+@import "mixins/_mixins.grid";
+
+/* Reset
+
+################## */
+@import "utility/reset";
+// reset before mixins because it can cancel out classes they make
+
+// External or component/module specific mixins will go here
+// NB? they might have some @functions too
+
+// GOOD
+// include global classes
+@import "classes/_classes.global";
+@import "classes/_classes.placeholders";
+// @import "classes/_classes.grid.bootstrap.original";

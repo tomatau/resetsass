@@ -1,0 +1,67 @@
+/////////////////////////////////////
+// Measurement                     //
+//     e.g. em calculation, radius //
+/////////////////////////////////////
+//
+// Required Variables
+$rem-base: 16px !default;
+
+// bounds for media queries
+@function lower-bound($range){
+    @if length($range) <= 0 {
+        @return 0;
+    }
+    @return nth($range,1);
+}
+@function upper-bound($range) {
+    @if length($range) < 2 {
+        @return 999999999999;
+    }
+    @return nth($range, 2);
+}
+
+// em
+@function convert-to-rem($value, $base-value: $rem-base)  {
+    $value: strip-units($value) / strip-units($base-value) * 1rem;
+    @if ($value == 0rem) { $value: 0; } // Turn 0rem into 0
+    @return $value;
+}
+// Call with 1, 2, 3 or 4 parameters, 'px' is not required but supported:
+// rem-calc(10 20 30px 40);
+// rem-calc((10, 20, 30, 40px));
+// rem-calc(16px 32px 48px, 8px); // base value
+@function rem($values, $base-value: $rem-base) {
+    $max: length($values);
+    @if $max == 1 { @return convert-to-rem(nth($values, 1), $base-value); }
+    $remValues: ();
+    @for $i from 1 through $max {
+        $remValues: append($remValues, convert-to-rem(nth($values, $i), $base-value));
+    }
+    @return $remValues;
+}
+
+// http://codepen.io/HugoGiraudel/pen/rdgse
+@function convert-angle($value, $unit) {
+    $convertable-units: deg grad turn rad;
+    $conversion-factors: 1 10grad/9deg 1turn/360deg 3.1415926rad/180deg;
+    @if index($convertable-units, unit($value)) and index($convertable-units, $unit) {
+        @return $value
+             / nth($conversion-factors, index($convertable-units, unit($value)))
+             * nth($conversion-factors, index($convertable-units, $unit));
+    } @else {
+        @warn "Cannot convert #{unit($value)} to #{$unit}";
+    }
+}
+
+// Breakpoints
+@function min($size){
+    @return "(min-width: #{$size})";
+}
+
+@function max($size){
+    @return "(max-width: #{$size})";
+}
+
+@function between($min, $max){
+    @return "(min-width: #{$min}) and (max-width: #{$max})";
+}

@@ -1,0 +1,9 @@
+
+$namespace: false !default;
+// get data attr
+@function data($attr) {
+    @if $namespace {
+        @return '[data-' + $namespace + '-' + $attr + ']';
+    }
+    @return '[data-' + $attr + ']';
+}

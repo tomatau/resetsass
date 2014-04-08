@@ -1,0 +1,17 @@
+//
+// Required Variables
+$breakpoints: (
+    max(rem(400px))      "mobile-only", // 320
+    min(rem(401px))      "mobile",
+    min(rem(640px))      "mobile-l",
+    min(rem(820px))      "tablet",
+    min(rem(921px))      "desktop", // tablets get upto about 1366
+    min(1200px)          "widescreen"
+) !default;
+
+@mixin breakpoint($point) {
+    $query: by-name($point, $breakpoints);
+    @media #{$query} {
+        @content
+    }
+}

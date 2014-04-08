@@ -1,0 +1,95 @@
+$breakpoints: (
+    max(rem(400px))      "mobile-only", // 320
+    min(rem(401px))      "mobile",
+    min(rem(640px))      "mobile-l",
+    min(rem(820px))      "tablet",
+    min(rem(921px))      "desktop", // tablets get upto about 1366
+    min(1200px)          "widescreen"
+) !default;
+
+/* Larger devices
+
+    Stylings of mobile-first applied, add responsivity
+################## */
+// generally this page should be styled depending on the breakpoints list
+@include breakpoint("mobile"){
+    #wrapper {
+        padding:10px;
+    }
+
+    footer#close-page {
+        > div {
+            width: 80%;
+            margin: 10px auto;
+            max-width: 1100px;
+        }
+    }
+    .m-right {
+        float: right;
+    }
+    .mob-5 {
+        width: grid-calc(5) !important;
+    }
+    .mob-7 {
+        width: grid-calc(7) !important;
+    }
+    .container #of-projects table {
+        .mob-show-cell {
+            display: table-cell;
+        }
+    }
+    .mob-show {
+        // might not want a block element... use opacity with transition?
+        display: block;
+    }
+
+    #main-navigation {
+        .overlay + .nav-links {
+
+        }
+    }
+    button.overlay {
+        display: none;
+    }
+}
+@include breakpoint("tablet"){
+    .container {
+        width: 90%;
+    }
+    .tab-4 {
+        width: grid-calc(4) !important;
+    }
+    .tab-8 {
+        width: grid-calc(8) !important;
+    }
+    .container #of-projects table {
+        .tabl-show-cell {
+            display: table-cell;
+        }
+    }
+}
+@include breakpoint("desktop"){
+    #footer-nav {
+        > aside {
+            width: 30%;
+            float: left;
+            height: 100px;
+        }
+    }
+}
+@include breakpoint("widescreen"){
+    .container {
+        width: 1100px;
+    }
+}
+@include breakpoint("mobile-only"){ // only one with max, below mobile
+    // better if this was accounted for in the main
+    #main-navigation {
+        button {
+            float: right;
+            position: absolute;
+            top: 14px;
+            right: 4px;
+        }
+    }
+}

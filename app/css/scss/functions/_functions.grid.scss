@@ -1,0 +1,4 @@
+@function grid-calc($colNumber, $total: $num-rows) {
+    @return percentage(($colNumber / $total));
+}
+

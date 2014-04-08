@@ -1,0 +1,14 @@
+{
+  "name": "cajon",
+  "homepage": "https://github.com/requirejs/cajon",
+  "version": "0.2.0",
+  "_release": "0.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.0",
+    "commit": "939ff78e12ed50484f421303cd2bfd9345ee226f"
+  },
+  "_source": "https://github.com/requirejs/cajon.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/requirejs/cajon.git"
+}

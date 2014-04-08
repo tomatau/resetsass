@@ -1,0 +1,26 @@
+$num-rows: 12;
+$gutter-width: rem(15px);
+
+/* Start of Grid Classes
+################## */
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left:  ($gutter-width / 2);
+    padding-right: ($gutter-width / 2);
+    @extend %clearfix;
+}
+
+/* rows */
+%row {
+    margin-left:  ($gutter-width / -2);
+    margin-right: ($gutter-width / -2);
+    @extend %clearfix;
+
+    %col {
+        width: 100%;
+        position: relative;
+        float: left;
+        padding: ($gutter-width/2);
+    }
+}

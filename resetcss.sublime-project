@@ -1,0 +1,29 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Users/tomatao/Sites/tomatao/resetcss",
+         "folder_exclude_patterns": [
+            ".sass*"
+         ]
+		}
+	],
+   "settings":
+   {
+      "tab_size": 4
+   },
+   "build_systems":
+   [
+      {
+         "name": "Sass Style Project",
+         "cmd": [
+            "sass",
+            "--load-path", "vendor", 
+            "--style", "expanded",
+            "--update", "style.scss:${project_path}/app/css/style.css"
+         ],
+         "working_dir": "${project_path}/app/css/scss"
+      }
+   ]
+}

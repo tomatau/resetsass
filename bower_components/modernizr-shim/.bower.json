@@ -1,0 +1,31 @@
+{
+  "name": "modernizr-shim",
+  "version": "0.0.1",
+  "authors": [
+    "Alexander Vassbotn Royne-Helgesen <alexander@phun-ky.net>"
+  ],
+  "description": "A minified shim for modernizr",
+  "main": "modernizr.min.js",
+  "keywords": [
+    "modernizr",
+    "shim"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/phun-ky/modernizr-shim",
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.1",
+    "commit": "84d8b7b35de0c84b72a3e831a06488a7bd671db0"
+  },
+  "_source": "git://github.com/phun-ky/modernizr-shim.git",
+  "_target": "*",
+  "_originalSource": "modernizr-shim"
+}

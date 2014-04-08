@@ -1,0 +1,52 @@
+////////////////////////////
+// Global Vars - Defaults //
+////////////////////////////
+
+////////////
+// Colors //
+////////////
+$primary-color: #bee70f;
+$bg-color: #ffffff;
+
+//////////
+// Font //
+//////////
+$small-font: 80%; // needed in reset
+$font-size: 17px;
+$fonts: (
+    "/fonts/estre-webfont" "Estrangelo_Edessa",
+    "/fonts/terminaldosis-medium-webfont" "TerminalDosis-Medium"
+);
+
+//////////
+// Grid //
+//////////
+$num-rows: 12;
+
+////////////////
+// Properties //
+////////////////
+$wrapper-padding: 4px;
+$global-radius: 3px;
+
+//////////////
+// security //
+//////////////
+$namespace: false;
+
+//////////
+// math //
+//////////
+$rem-base: 16px;
+
+///////////////////
+// Media Queries //
+///////////////////
+$breakpoints: (
+    max(rem(400px))      "mobile-only", // 320
+    min(rem(401px))      "mobile",
+    min(rem(640px))      "mobile-l",
+    min(rem(820px))      "tablet",
+    min(rem(921px))      "desktop", // tablets get upto about 1366
+    min(1200px)          "widescreen"
+);

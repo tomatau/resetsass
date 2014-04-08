@@ -1,0 +1,71 @@
+{
+  "name": "resetcss",
+  "version": "0.0.0",
+  "authors": [
+    "Thomas Hudspith-Tatham <iammotivated@gmail.com>"
+  ],
+  "license": "WTFGPL",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/js/_lib/vendor",
+    "app/test",
+    "app/tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.0.2",
+    "cajon": "https://github.com/requirejs/cajon.git",
+    "foundation": "latest",
+    "jquery": "latest",
+    "meld": "~1.3.0",
+    "modernizr-shim": "latest",
+    "require-css": "latest",
+    "requirejs-text": "latest",
+    "skeleton-sass": "latest",
+    "wire": "~0.10.6",
+    "when": "~2.*",
+    "semantic-ui-sass": "*",
+    "solved-by-flexbox": "https://github.com/philipwalton/solved-by-flexbox.git"
+  },
+  "install": {
+    "path": {
+      "scss": "app/css/scss/vendor",
+      "js": "app/js/_lib/vendor"
+    },
+    "sources": {
+      "bootstrap-sass": [],
+      "cajon": [
+        "bower_components/cajon/cajon.js"
+      ],
+      "fastclick": [],
+      "foundation": [],
+      "jquery": [],
+      "jquery-placeholder": [],
+      "jquery.cookie": [],
+      "meld": [],
+      "modernizr": [],
+      "modernizr-shim": [
+        "bower_components/modernizr-shim/modernizr.min.js"
+      ],
+      "poly": [],
+      "require-css": [
+        "bower_components/require-css/css.js"
+      ],
+      "requirejs-text": [
+        "bower_components/requirejs-text/text.js"
+      ],
+      "skeleton-sass": [
+        "bower_components/skeleton-sass/sass/_dependencies.scss",
+        "bower_components/skeleton-sass/sass/_vars.scss",
+        "bower_components/skeleton-sass/sass/_mixins.scss",
+        "bower_components/skeleton-sass/sass/skeleton.scss"
+      ],
+      "semantic-ui-sass": [],
+      "solved-by-flexbox": [],
+      "wire": [],
+      "when": []
+    }
+  }
+}

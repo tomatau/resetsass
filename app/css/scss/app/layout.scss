@@ -1,0 +1,192 @@
+///////////
+// Start //
+///////////
+$num-rows: 12;
+$gutter-width: rem(15px);
+
+$font-size: rem(14px);
+$nice-text-padding: $font-size *.67;
+
+/* Start of site
+
+################## */
+#title {
+    .logo img {
+        height: rem(50px);
+        margin-right: 10px;
+        float: left;
+    }
+    padding-top: 10px;
+    h1 {
+        margin-bottom: 8px;
+        height: 50px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    h2 {
+        margin-bottom: 12px;
+    }
+}
+
+#main {
+    @extend %row;
+    // alternative method of layout design
+    > aside {}
+    >.list {}
+}
+
+#of-projects {
+    @extend %col;
+
+    thead {
+        border-bottom: 2px solid #ddd;
+        font-weight: bold;
+    }
+
+    th, td {
+        &:first-child {
+            display: table-cell;
+        }
+        display: none;
+        padding: $nice-text-padding;
+    }
+}
+
+#current-client {
+    @extend %col;
+    dt, dd {
+        display: inline-block;
+        width: 100%;
+    }
+
+    select {
+        border-radius: 4px;
+        height: 30px;
+        width: 100%;
+    }
+}
+
+#form-sidebar {
+    @extend %col;
+
+    //
+}
+
+#add-project, #add-client {
+    input {
+        border-radius: 1px;
+        height: 30px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+
+footer#close-page {
+    background-color: #000 + ($somecolor * 0.2);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    p {
+        font: {
+            family: monospace;
+            size: 1.1rem;
+        }
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    #disclaimer {
+        width: 100%; 
+    }
+}
+
+#footer-nav {
+    @extend %row;
+    margin-top: 10px;
+
+    > aside {
+        @extend %col;
+        border-right: 1px solid white;
+        margin-right: 3%;
+        margin-bottom: 10px;
+    }
+    aside.brand-tomatao {
+        .icon {
+            padding-left: 15px;
+            margin-top: -9px;
+        }
+    }
+    h3, .icon {
+        font: {
+            family: $header-family;
+        }
+        float: left;
+    }
+    h3 {
+        color: $somecolor + 227;
+    }
+    .icon {
+        padding: 0px;
+        font: {
+            size: rem(84px);
+        }
+        margin-right: 10px;
+        margin-top: -3px;
+        width: 55px;
+        height: 55px;
+    }
+    h3, .extra {
+        padding: 10px;
+    }
+
+    .extra {
+        color: $somecolor - 47;
+        float: right;
+        width: 100%;
+    }
+
+    .brand-tomatao {
+        .icon {
+            position: relative;
+            top: -2px;
+        }
+    }
+}
+
+#closing-nav {
+    @extend %row;
+    ul {
+        margin-left: 20px;
+    }
+    li {
+        margin-bottom: 10px;
+        a {
+            top: -8px;
+        }
+    }
+}
+
+div#disclaimer {
+    @extend %row;
+    
+    p {
+        text-align: center;
+        font: {
+            size: rem(10px);
+        }
+    }
+}
+
+#main-navigation {
+    button {
+        padding: 5px;
+        width: 30px;
+        float: right;
+        font: {
+            size: rem(20px);
+        }
+    }
+    .nav-links {
+        @include nav-flex;
+    }
+}

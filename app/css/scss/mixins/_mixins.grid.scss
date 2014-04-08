@@ -1,0 +1,14 @@
+//
+// Required Variables
+$num-rows: 12 !default;
+
+@mixin numbered-classes {
+    $class-list: ();
+    @for $num from 1 through $num-rows {
+        // $class-list: join($class-list, ".#{numToString($num)}", comma);
+        $class-list: append($class-list, ".#{num-to-string($num)}");
+    }
+    #{list-to-string($class-list, ", ")} {
+        @content;
+    }
+}

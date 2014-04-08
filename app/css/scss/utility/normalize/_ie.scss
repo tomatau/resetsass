@@ -1,0 +1,42 @@
+// `[hidden]` in IE 8/9.
+// `template` in IE, Safari and ff < 22.
+[hidden],
+template {
+    display: none;
+}
+
+//not IE 8/9, Safari 5
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+// !ie8 ie9
+mark {
+    background-color: $primary-color;
+    padding: 0 2px;
+    margin: 0 -2px;
+}
+
+//  ie 8/9/10 hidden
+button {
+    overflow: visible;
+}
+
+// IE 9
+svg:not(:root) {
+    overflow: hidden;
+}
+
+// don't restyle cuz firefox
+// 
+// ie 8,9,10
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+}
+
+// default vertical scrollbar in IE8/9
+textarea {
+    overflow: auto;
+}

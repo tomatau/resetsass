@@ -1,0 +1,17 @@
+
+@mixin font-family-src($font-family, $file-path) {
+    font: {
+        family: $font-family;
+        weight: normal;
+        style: normal;
+    }
+    src: url('#{$file-path}.eot');
+    src: url('#{$file-path}.eot?#iefix')              format('embedded-opentype'),
+        url('#{$file-path}.woff')                     format('woff'),
+        url('#{$file-path}.ttf')                      format('truetype'),
+        url('#{$file-path}.svg##{$font-family}')      format('svg');
+}
+
+@mixin font-face($family) {
+    @include font-family-src($family, font-url($family));
+}

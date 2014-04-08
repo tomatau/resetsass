@@ -1,0 +1,9 @@
+{
+  "name": "resetcss",
+  "version": "0.0.0",
+  "description": "",
+  "author": "",
+  "devDependencies": {
+    "grunt": "~0.4.4"
+  }
+}

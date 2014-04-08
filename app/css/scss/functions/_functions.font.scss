@@ -1,0 +1,10 @@
+
+$fonts: (
+    "/fonts/estre-webfont" "Estrangelo_Edessa",
+    "/fonts/terminaldosis-medium-webfont" "TerminalDosis-Medium"
+) !default;
+
+// get the url from above list
+@function font-url($name){
+    @return by-name($name, $fonts);
+}

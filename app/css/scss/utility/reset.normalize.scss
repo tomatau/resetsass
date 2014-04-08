@@ -1,0 +1,90 @@
+@import "utility/normalize/mixins.scss";
+
+@include reset-elements-top-left;
+@include reset-html5;
+@include reset-text-elements; // default not reset margin
+@include reset-fixes;
+
+#wrapper {
+    padding: $wrapper-padding;;
+}
+
+// browser specific
+@import "utility/normalize/ie.scss";
+@import "utility/normalize/others.scss";
+
+///////////////
+// universal //
+///////////////
+
+// nb. all table cells have a top and right 1px border
+
+//  !iOS text-size after orientation change 
+//  without disabling user zoom.
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+// No `audio` without controls.
+// Remove excess height in iOS 5 devices.
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+// links
+a {
+    background: transparent;
+}
+// a:active,
+// a:hover {
+//   outline: 0;
+// }
+
+// inconsistent
+small {
+    font-size: $small-font;
+}
+
+// prevent line-height change
+sub,
+sup {
+    font-size: $small-font * 0.8;
+    line-height: 0;
+}
+
+hr {
+    border-color: $primary-color - 50;
+}
+
+///////////
+// FORMS //
+///////////
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+}
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+///////////
+// TABLE //
+///////////
+th, td {
+    border-top: 1px solid $bg-color;
+    border-right: 1px solid $bg-color;
+}
+
+th {
+    border-color: $primary-color - 50;
+}

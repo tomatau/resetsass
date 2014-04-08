@@ -3,7 +3,7 @@
 /////////////
 //
 
-$somecolor: $primary-color;
+$somecolor: lighten($primary-color, 50%);
 $header-family: Estrangelo_Edessa;
 $body-family: Helvetica, Arial, sans-serif;
 

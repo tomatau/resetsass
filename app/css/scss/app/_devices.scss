@@ -38,14 +38,20 @@ $breakpoints: (
             display: table-cell;
         }
     }
-    .mob-show {
+    .mob-show { // used?
         // might not want a block element... use opacity with transition?
         display: block;
     }
 
     #main-navigation {
         .overlay + .nav-links {
-
+            li {
+                padding: 7px 0;
+                a {
+                    padding: 0;
+                }
+            }
+            @include nav-flex;
         }
     }
     button.overlay {

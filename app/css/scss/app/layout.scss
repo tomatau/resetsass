@@ -1,12 +1,6 @@
 ///////////
 // Start //
 ///////////
-$num-rows: 12;
-$gutter-width: rem(15px);
-
-$font-size: rem(14px);
-$nice-text-padding: $font-size *.67;
-
 /* Start of site
 
 ################## */
@@ -15,6 +9,9 @@ $nice-text-padding: $font-size *.67;
         height: rem(50px);
         margin-right: 10px;
         float: left;
+    }
+    hgroup {
+        max-width: 80%;
     }
     padding-top: 10px;
     h1 {
@@ -68,8 +65,6 @@ $nice-text-padding: $font-size *.67;
 
 #form-sidebar {
     @extend %col;
-
-    //
 }
 
 #add-project, #add-client {
@@ -184,6 +179,12 @@ div#disclaimer {
         }
     }
     .nav-links {
-        @include nav-flex;
+        @include nav-overlay;
+    }
+
+    button:focus + .nav-links,
+    button:hover + .nav-links,
+    .nav-links:hover {
+        display: block;
     }
 }

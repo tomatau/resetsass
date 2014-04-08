@@ -261,6 +261,9 @@ button:hover {
   margin-right: 10px;
   float: left;
 }
+#title hgroup {
+  max-width: 80%;
+}
 #title h1 {
   margin-bottom: 8px;
   height: 50px;
@@ -277,7 +280,7 @@ button:hover {
 }
 #of-projects th, #of-projects td {
   display: none;
-  padding: 0.58625rem;
+  padding: 0.71188rem;
 }
 #of-projects th:first-child, #of-projects td:first-child {
   display: table-cell;
@@ -375,23 +378,23 @@ div#disclaimer p {
   font-size: 1.25rem;
 }
 #main-navigation .nav-links {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  -moz-flex-flow: row wrap;
-  flex-flow: row wrap;
-  position: static;
-  width: 100%;
+  display: none;
+  right: 4px;
+  top: 44px;
+  z-index: 2;
+  position: absolute;
+  width: 200px;
 }
 #main-navigation .nav-links li {
-  flex: 1;
-  min-width: 120px;
-  max-width: 240px;
+  height: 30px;
+  margin-bottom: 2px;
+  background-color: #0a2929;
+  color: white;
 }
-#main-navigation .nav-links li a {
-  position: static;
-  padding: 8px;
+#main-navigation button:focus + .nav-links,
+#main-navigation button:hover + .nav-links,
+#main-navigation .nav-links:hover {
+  display: block;
 }
 
 /* Larger devices
@@ -427,6 +430,28 @@ div#disclaimer p {
 
   .mob-show {
     display: block;
+  }
+
+  #main-navigation .overlay + .nav-links {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    flex-flow: row wrap;
+    position: static;
+    width: 100%;
+  }
+  #main-navigation .overlay + .nav-links li {
+    padding: 7px 0;
+  }
+  #main-navigation .overlay + .nav-links li a {
+    padding: 0;
+  }
+  #main-navigation .overlay + .nav-links li {
+    flex: 1;
+    min-width: 120px;
+    max-width: 240px;
   }
 
   button.overlay {

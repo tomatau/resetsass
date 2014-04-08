@@ -7,10 +7,6 @@
         flex: 1;
         min-width: 120px;
         max-width: 240px;
-        a {
-            position: static;
-            padding: 8px;
-        }
     }
 }
 
@@ -24,12 +20,10 @@
     li {
         height: 30px;
         margin-bottom: 2px;
-        background-color: darken($primary-color, 80%);
+        background-color: darken(complement($primary-color), 40%);
         color: white;
-    }
-    button:focus + &,
-    button:hover + &,
-    &:hover {
-        display: block;
+        a {
+            padding: 4px 8px;
+        }
     }
 }

@@ -12,16 +12,18 @@ $bg-color: #ffffff;
 // Font //
 //////////
 $small-font: 80%; // needed in reset
-$font-size: 17px;
+$font-size: rem(17px);
 $fonts: (
     "/fonts/estre-webfont" "Estrangelo_Edessa",
     "/fonts/terminaldosis-medium-webfont" "TerminalDosis-Medium"
 );
+$nice-text-padding: $font-size *.67;
 
 //////////
 // Grid //
 //////////
 $num-rows: 12;
+$gutter-width: rem(15px);
 
 ////////////////
 // Properties //

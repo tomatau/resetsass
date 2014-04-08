@@ -1,11 +1,9 @@
 ///////////////
 // Main SCSS //
 ///////////////
-@import "functions/_functions.global";
+@import "functions/_functions.global"; // all of them..
 @import "vars/_vars.global.default";
 @import "mixins/_mixins.global";
-
-// Functions
 
 // Mixins
 @import "mixins/_mixins.breakpoints";

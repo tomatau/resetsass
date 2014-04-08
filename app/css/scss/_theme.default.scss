@@ -133,7 +133,10 @@ select, button {
 }
 
 button {
-    background-color: invert(complement($primary-color));
+    background-color: $primary-color;
+    @if lightness($primary-color) < 60% {
+        color: lighten($primary-color, 80%);
+    }
     &:hover {
         color: lighten($primary-color, 40%);
         background-color: complement($primary-color);
@@ -147,4 +150,3 @@ button {
     margin: 0 auto;
     border: 2px solid black;
 }
-

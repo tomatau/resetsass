@@ -1,1 +1,1739 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"com",
+				"complement"
+			],
+			[
+				"pla",
+				"placeholder"
+			],
+			[
+				"prim",
+				"primary-color"
+			],
+			[
+				"list-st",
+				"list-style-position"
+			],
+			[
+				"loo",
+				"logo"
+			],
+			[
+				"fn",
+				"function"
+			],
+			[
+				"border-",
+				"border-color"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"som",
+				"somecolor"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"head",
+				"header-family"
+			],
+			[
+				"he",
+				"header-family"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"clear",
+				"clearfix"
+			],
+			[
+				"num",
+				"numbered"
+			],
+			[
+				"backc",
+				"background-color"
+			],
+			[
+				"jus",
+				"justify-content"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"fle",
+				"flex"
+			],
+			[
+				"fl",
+				"flex"
+			],
+			[
+				"flex",
+				"flexbox"
+			],
+			[
+				"col",
+				"col"
+			],
+			[
+				"nu",
+				"num-rows"
+			],
+			[
+				"gid",
+				"grid-columns"
+			],
+			[
+				"medi",
+				"medium"
+			],
+			[
+				"co",
+				"column"
+			],
+			[
+				"colum",
+				"column"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"wra",
+				"wrapper"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"brdcol",
+				"border-color"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"glo",
+				"global-reset"
+			],
+			[
+				"si",
+				"size"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"tex-",
+				"text-decoration"
+			],
+			[
+				"rad",
+				"radius"
+			],
+			[
+				"Or",
+				"OrganiseProjects"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"gl",
+				"global"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"fon",
+				"fontColor"
+			],
+			[
+				"header",
+				"header-color-dark"
+			],
+			[
+				"ven",
+				"vendorPath"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"cl",
+				"class=\"no"
+			],
+			[
+				"cla",
+				"class"
+			],
+			[
+				"mo",
+				"mobile-max-width"
+			],
+			[
+				"ORganis",
+				"OrganiseProjects"
+			],
+			[
+				"defa",
+				"defaults"
+			],
+			[
+				"Vie",
+				"ViewBlog"
+			],
+			[
+				"view",
+				"viewBlog"
+			],
+			[
+				"und",
+				"undefined"
+			],
+			[
+				"te",
+				"testScenario"
+			],
+			[
+				"test",
+				"testActor"
+			],
+			[
+				"us",
+				"useCase"
+			],
+			[
+				"req",
+				"request:handler"
+			],
+			[
+				"re",
+				"resps"
+			],
+			[
+				"pub",
+				"publishedValue"
+			],
+			[
+				"tweet",
+				"tweetID"
+			],
+			[
+				"feed",
+				"feedJSON"
+			],
+			[
+				"getT",
+				"getTweetsAPI"
+			],
+			[
+				"loa",
+				"loadingHTML"
+			],
+			[
+				"displ",
+				"displayFeedHTML"
+			],
+			[
+				"count",
+				"counterBucket"
+			],
+			[
+				"set",
+				"setupGame"
+			],
+			[
+				"toggle",
+				"toggleVisible"
+			],
+			[
+				"main",
+				"mainContent"
+			],
+			[
+				"data",
+				"dataParams"
+			],
+			[
+				"lis",
+				"listenForSearchSubmit"
+			],
+			[
+				"sear",
+				"searchForFood"
+			],
+			[
+				"sea",
+				"searchForFood"
+			],
+			[
+				"se",
+				"setRandomNumber"
+			],
+			[
+				"make",
+				"makeGuess"
+			],
+			[
+				"gre",
+				"green"
+			],
+			[
+				"ajax",
+				"ajaxOpts"
+			],
+			[
+				"ar",
+				"arguments"
+			],
+			[
+				"Model",
+				"ModelMaps"
+			],
+			[
+				"ren",
+				"rendered"
+			],
+			[
+				"prop",
+				"props"
+			],
+			[
+				"pro",
+				"props"
+			],
+			[
+				"cons",
+				"constructor"
+			],
+			[
+				"undele",
+				"undelegateEvents"
+			],
+			[
+				"arg",
+				"arguments"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"reqi",
+				"require"
+			],
+			[
+				"node",
+				"nodeRequire"
+			],
+			[
+				"base",
+				"baseUrl"
+			],
+			[
+				"require",
+				"requirejs"
+			],
+			[
+				"requir",
+				"requirejs"
+			],
+			[
+				"under",
+				"underscore"
+			],
+			[
+				"Cr",
+				"createContext"
+			],
+			[
+				"create",
+				"createContext"
+			],
+			[
+				"crea",
+				"createContext"
+			],
+			[
+				"func",
+				"functions"
+			],
+			[
+				"login",
+				"loginController"
+			],
+			[
+				"requi",
+				"requirejs"
+			],
+			[
+				"sion",
+				"sinonChai"
+			],
+			[
+				"disable",
+				"disableSubmit"
+			],
+			[
+				"setU",
+				"setupEvents"
+			],
+			[
+				"chan",
+				"changeInput"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Sass Style Project",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"rev",
+				"File: Reveal"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"task",
+				"Tasks: Archive"
+			],
+			[
+				"syn java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"mov",
+				"File: Move"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"toggle op",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"sidebar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"re",
+				"File: Rename"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"fold",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"mo",
+				"File: Move"
+			],
+			[
+				"sur",
+				"Surround: change surround"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"reve",
+				"File: Reveal"
+			],
+			[
+				"cha",
+				"Surround: change surround"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"sni",
+				"Snippet: html"
+			],
+			[
+				"snippet",
+				"Snippet: html"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"coffee",
+				"Coffee: Compile File"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"javs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jshint",
+				"JSHint: Set Plugin Options"
+			],
+			[
+				"lint",
+				"JSHint: Set Linting Preferences"
+			],
+			[
+				"clear",
+				"JSHint: Clear Annotations"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"hint",
+				"JSHint: Set Plugin Options"
+			],
+			[
+				"sublint",
+				"Preferences: SublimeLint Settings – Default"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"show",
+				"SublimeLint: Show All Errors"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime",
+				"Preferences: SublimeLint Settings – Default"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"toggle",
+				"View: Toggle Minimap"
+			],
+			[
+				"synt java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"du",
+				"File: Duplicate"
+			],
+			[
+				"surr",
+				"Surround: change surround"
+			],
+			[
+				"synt bla",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"synt js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"blad",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"gen v",
+				"Laravel Generate: View"
+			],
+			[
+				"gen vie",
+				"Laravel Generate: View"
+			],
+			[
+				"laravel generat v",
+				"Laravel Generate: View"
+			],
+			[
+				"control",
+				"Laravel Generate: Controller"
+			],
+			[
+				"lar res",
+				"Laravel Generate: Resource"
+			],
+			[
+				"apach",
+				"Set Syntax: Apache Conf"
+			],
+			[
+				"blade",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"modl",
+				"Laravel Generate: Model"
+			],
+			[
+				"model",
+				"Laravel Generate: Model"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"change",
+				"Surround: change surround"
+			],
+			[
+				"select",
+				"Bracketeer: Select Inside Braces"
+			],
+			[
+				"selec",
+				"BracketHighlighter: Select Bracket Content"
+			],
+			[
+				"swap",
+				"BracketHighlighter: Swap Quotes"
+			],
+			[
+				"brack swap",
+				"BracketHighlighter: Swap Quotes"
+			],
+			[
+				"bracketeer",
+				"BracketHighlighter: Swap Quotes"
+			],
+			[
+				"bracket",
+				"Bracketeer: Insert curly brackets"
+			],
+			[
+				"brack",
+				"Bracketeer: Indent Text"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"HTM",
+				"Set Syntax: HTML"
+			],
+			[
+				"bwp",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ini",
+				"Set Syntax: INI"
+			],
+			[
+				"in",
+				"Set Syntax: INI"
+			],
+			[
+				"instal ",
+				"Package Control: Install Package"
+			],
+			[
+				"syn ba",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"synt bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"sy bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"syn bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"syn bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"synt b",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"synt ba",
+				"Set Syntax: Shell Script (Bash)"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 261.0,
+		"history":
+		[
+			"view.run_command(\"lint\", \"help\")",
+			"view.run_command(\"lint\")",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/tomatao/Sites/tomatao/resetcss/app/css/scss/_setup.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/css/scss/vars/_vars.global.default.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/css/scss/app/layout.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/index.php",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/php/testpage.php",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/css/scss/_theme.default.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/css/scss/vars/_vars.global.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/bower_components/skeleton-sass/demo/sass/_vars.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/bower_components/skeleton-sass/sass/_vars.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/bower_components/skeleton-sass/compass/_vars.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/bower_components/skeleton-sass/bourbon/_vars.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/bower_components/bootstrap-sass/lib/_variables.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/bower_components/bootstrap-sass/_config.yml",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/css/scss/mixins/_mixins.navigation.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/css/scss/utility/_reset.mixins.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/bower_components/skeleton-sass/sass/layout.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/bower_components/skeleton-sass/css/layout.css",
+		"/Users/tomatao/Sites/tomatao/resetcss/bower_components/skeleton-sass/compass/layout.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/bower_components/skeleton-sass/bourbon/layout.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/bower_components/bootstrap-sass/_layouts/default.html",
+		"/Users/tomatao/Sites/tomatao/resetcss/bower_components/bootstrap-sass/lib/_labels.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/bower_components/bootstrap-sass/LICENSE",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/css/scss/functions/_functions.global.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/css/scss/utility/normalize/_ie.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/css/scss/utility/normalize/_others.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/css/style.css",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/css/scss/utility/reset.normalize.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/css/scss/mixins/_mixins.flex.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/css/scss/mixins/_mixins.global.bootstrap.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/css/scss/mixins/_mixins.grid.bootstrapy.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/css/scss/mixins/_mixins.grid.foundation.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/css/scss/mixins/_mixins.global.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/css/scss/classes/_classes.grid.bootstrap.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/css/scss/classes/_classes.grid.foundation.scss",
+		"/Users/tomatao/Sites/tomatao/resetcss/app/css/scss/classes/_classes.grid.semantic.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/npm-debug.log",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/css/scss/utility/reset.global.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/css/scss/utility/normalize/_mixins.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass/lib/_utilities.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/when/unfold.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass/examples/starter-template/index.html",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/css/scss/utility/reset.normalize.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass/README.md",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/robots.txt",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/wire/test/dojo/rest1/rest1.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/img/icons.svg",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/css/scss/app/_devices.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass/lib/_buttons.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/php/body.php",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass/lib/_forms.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/.htaccess",
+		"/Users/tomatao/Sites/tomatao/organise-projects/node_modules/grunt/node_modules/hooker/test/hooker_test.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/humans.txt",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass/js/button.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/semantic-ui-sass/spec/dummy/config/boot.rb",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass/lib/bootstrap.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass/_includes/footer.html",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass/fonts/glyphicons-halflings-regular.svg",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass/dist/css/bootstrap.min.css",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/semantic-ui/server/files/javascript/library/ace/theme-dawn.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/css/scss/_theme.default.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass/examples/theme/theme.css",
+		"/Users/tomatao/Sites/tomatao/organise-projects/node_modules/grunt/node_modules/grunt-legacy-util/LICENSE-MIT",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/Zss/scss/mixins/_tom.responsive.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/css/scss/mixins/_mixins.grid.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/skeleton-sass/bourbon/_mixins.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/Gruntfile-print-text.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/semantic-ui/server/files/stylesheets/reset.css",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/skeleton-sass/sass/dev/dev.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/semantic-ui/server/documents/project/development.html.eco",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/modernizr/feature-detects/dom-createElement-attrs.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/css/scss/vars/_vars.global.default.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/modernizr/feature-detects/vibration.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/css/scss/app/devices.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/css/scss/vars/_vars.global.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/skeleton-sass/demo/sass/_vars.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/Zss/scss/vendor/_vars.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/index.php",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass/LICENSE",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/wire/lib/ObjectProxy.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass/lib/_theme.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/Zss/scss/_theme.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/Zss/scss/section/title.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/foundation/scss/foundation/components/_range-slider.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/jquery/src/effects/animatedSelector.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/node_modules/grunt/node_modules/minimatch/test/brace-expand.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/node_modules/grunt/node_modules/glob/test/bash-results.json",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/skeleton-sass/bourbon/bourbon/css3/_appearance.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/when/apply.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument_parser.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass/about.html",
+		"/Users/tomatao/Sites/tomatao/organise-projects/package.json",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass/dist/css/bootstrap.css",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass/lib/_grid.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass/lib/_mixins.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/foundation/css/foundation.css",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/css/scss/app/layout.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/css/scss/functions/_functions.parsing.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/fonts/original/TerminalDosis-Medium.woff",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/semantic-ui/RELEASE NOTES.md",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/skeleton-sass/bourbon/bourbon/helpers/_radial-arg-parser.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/css/scss/mixins/_mixins.global.bootstrap.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/css/scss/app/_mobile.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/css/scss/style.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/css/scss/functions/_functions.measurement.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/css/scss/functions/_functions.grid.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/css/scss/functions/_functions.global.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/js/_lib/tomatao/functions.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/php/flexbox.php",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/css/scss/_setup.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/skeleton-sass/bourbon/bourbon/addons/_font-family.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/node_modules/grunt/node_modules/rimraf/test/setup.sh",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/modernizr/test/js/setup.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/poly/setImmediate.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/jquery/src/manipulation/var/rcheckableType.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/semantic-ui/spec/elements/step.json",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/when/sequence.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/when/monitor/simpleReporter.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass/lib/_responsive-utilities.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass/examples/starter-template/starter-template.css",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/meld/test/afterReturning.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass/js/tests/unit/popover.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/when/monitor/stackFilter.js",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/skeleton-sass/bourbon/bourbon/css3/_font-face.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/solved-by-flexbox/_sass/vendor/_font-awesome-extensions.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/organise-projects.sublime-project",
+		"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/foundation/scss/foundation.scss",
+		"/Users/tomatao/Sites/tomatao/organise-projects/app/Zss/scss/functions/_foundation.scss"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"*.scss",
+			"*.less",
+			"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/semantic-ui/*.less",
+			"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/semantic-ui",
+			"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/semantic",
+			"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/foundation",
+			"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/bootstrap-sass",
+			"/Users/tomatao/Sites/tomatao/organise-projects/bower_components/semantic-ui-sass",
+			"*.scss",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"somec",
+			"some-color",
+			"some",
+			"form",
+			"somecolor",
+			"color",
+			"somecolor",
+			"dt",
+			"src",
+			"href",
+			"Organise",
+			"\n  ",
+			"  ",
+			"border-bottom",
+			"border-bot",
+			"offl",
+			"px)",
+			"gzip",
+			"/fonts",
+			"\n",
+			" ",
+			"input",
+			";\n",
+			"main",
+			"shadow",
+			"hover",
+			"hov",
+			"<li>",
+			"        \n",
+			"primary-color",
+			"color",
+			"a href",
+			"<li>",
+			"select",
+			"name",
+			":",
+			"mob",
+			"205",
+			"h1",
+			"235",
+			"236",
+			"256",
+			"mixin b",
+			"random",
+			"hls",
+			"hlsa",
+			"random",
+			"function h",
+			"function hs",
+			"function r",
+			"function random",
+			"func random",
+			"mob",
+			"m-",
+			"font-",
+			"otf",
+			"font-family",
+			"family",
+			"breakpoint",
+			"font-face",
+			"format",
+			"function format",
+			"font-url",
+			"file-path",
+			"font-face",
+			"\n            float: left;",
+			"\n            @extend %column;",
+			"grid-calc",
+			".tablet",
+			", 12",
+			"include",
+			"clearfix",
+			"tablet",
+			"mobile",
+			"make-row",
+			".row",
+			"margin-left: -",
+			"grid",
+			"placeholder",
+			"gzip",
+			"$list",
+			"mobile",
+			"width",
+			"em(",
+			"em",
+			"row-col",
+			"class",
+			"flex",
+			"display: flex",
+			"flex",
+			"class",
+			",",
+			"class",
+			"size-",
+			"wrapper",
+			"reset-box-model",
+			"box",
+			"ctrl+up",
+			"+up",
+			"inc",
+			"increment",
+			"px",
+			"gutter-width",
+			"grid-",
+			"_bd",
+			"vector",
+			" // ",
+			"type",
+			"grid",
+			"classes",
+			"rem-calc",
+			"rem",
+			" $collapse:null,",
+			"}\n",
+			"$collapse:null, $float:false",
+			"total-",
+			"and",
+			"total-columns",
+			"size",
+			"_gr",
+			"_group",
+			"dir",
+			"axis",
+			"ax",
+			"radius",
+			"vert",
+			"display",
+			"grid-row"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 106.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "resetcss.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"_varsdef",
+				"app/css/scss/vars/_vars.global.default.scss"
+			],
+			[
+				"layout",
+				"app/css/scss/app/layout.scss"
+			],
+			[
+				"ind",
+				"app/index.php"
+			],
+			[
+				"devic",
+				"app/css/scss/app/_devices.scss"
+			],
+			[
+				"utilmixin",
+				"app/css/scss/utility/normalize/_mixins.scss"
+			],
+			[
+				"reset",
+				"app/css/scss/utility/reset.global.scss"
+			],
+			[
+				"htacc",
+				"app/.htaccess"
+			],
+			[
+				"bootbutt",
+				"bower_components/bootstrap-sass/lib/_buttons.scss"
+			],
+			[
+				"bootform",
+				"bower_components/bootstrap-sass/lib/_forms.scss"
+			],
+			[
+				"bootmix",
+				"bower_components/bootstrap-sass/lib/_mixins.scss"
+			],
+			[
+				"themedef",
+				"app/css/scss/_theme.default.scss"
+			],
+			[
+				"utilmix",
+				"app/css/scss/utility/normalize/_mixins.scss"
+			],
+			[
+				"inde",
+				"app/index.php"
+			],
+			[
+				"bod",
+				"app/php/body.php"
+			],
+			[
+				"var",
+				"app/css/scss/vars/_vars.global.default.scss"
+			],
+			[
+				"theme",
+				"app/css/scss/_theme.default.scss"
+			],
+			[
+				"vars",
+				"app/css/scss/vars/_vars.global.default.scss"
+			],
+			[
+				"dev",
+				"app/css/scss/app/devices.scss"
+			],
+			[
+				"lay",
+				"app/css/scss/app/layout.scss"
+			],
+			[
+				"bodp",
+				"app/php/body.php"
+			],
+			[
+				"themescss",
+				"app/css/scss/_theme.default.scss"
+			],
+			[
+				"appscsslay",
+				"app/css/scss/app/layout.scss"
+			],
+			[
+				"body",
+				"app/php/body.php"
+			],
+			[
+				"parsin",
+				"app/css/scss/functions/_functions.parsing.scss"
+			],
+			[
+				"appfunct",
+				"app/css/scss/functions/_functions.measurement.scss"
+			],
+			[
+				"setupsc",
+				"app/css/scss/_setup.scss"
+			],
+			[
+				"start",
+				"bower_components/bootstrap-sass/examples/starter-template/starter-template.css"
+			],
+			[
+				"themdef",
+				"app/css/scss/_theme.default.scss"
+			],
+			[
+				"font.scss",
+				"bower_components/skeleton-sass/bourbon/bourbon/css3/_font-face.scss"
+			],
+			[
+				"mainsc",
+				"app/Zss/scss/section/main.scss"
+			],
+			[
+				"res",
+				"app/css/scss/utility/reset.global.scss"
+			],
+			[
+				"_them",
+				"app/css/scss/_theme.default.scss"
+			],
+			[
+				"them",
+				"app/css/scss/_theme.default.scss"
+			],
+			[
+				"the",
+				"bower_components/bootstrap-sass/examples/theme/theme.css"
+			],
+			[
+				"bootstmix",
+				"bower_components/bootstrap-sass/lib/_mixins.scss"
+			],
+			[
+				"foundcss",
+				"bower_components/foundation/css/foundation.css"
+			],
+			[
+				"foundgrid",
+				"bower_components/foundation/scss/foundation/components/_grid.scss"
+			],
+			[
+				"funmat",
+				"app/css/scss/functions/_functions.measurement.scss"
+			],
+			[
+				"mixingrid",
+				"app/css/scss/mixins/_mixins.grid.scss"
+			],
+			[
+				"functionscss",
+				"app/css/scss/functions/_functions.parsing.scss"
+			],
+			[
+				"classgrid",
+				"app/css/scss/classes/_classes.grid.scss"
+			],
+			[
+				"style",
+				"app/css/scss/style.scss"
+			],
+			[
+				"applay",
+				"app/css/scss/app/layout.scss"
+			],
+			[
+				"or",
+				"organise-projects.sublime-project"
+			],
+			[
+				"sty",
+				"app/css/scss/style.scss"
+			],
+			[
+				"resetie.sc",
+				"app/css/scss/utility/reset.normalize.scss"
+			],
+			[
+				"resetie",
+				"app/css/scss/utility/reset.normalize.scss"
+			],
+			[
+				"flex",
+				"app/php/flexbox.php"
+			],
+			[
+				"themscs",
+				"app/css/scss/_theme.default.scss"
+			],
+			[
+				"mixfle",
+				"app/css/scss/mixins/_mixins.flex.scss"
+			],
+			[
+				"func",
+				"app/css/scss/functions/_functions.measurement.scss"
+			],
+			[
+				"boxphp",
+				"app/php/flexbox.php"
+			],
+			[
+				"_func",
+				"app/css/scss/functions/_functions.element-properties.scss"
+			],
+			[
+				"bootgrid",
+				"bower_components/bootstrap-sass/lib/_grid.scss"
+			],
+			[
+				"funpar",
+				"app/css/scss/functions/_functions.parsing.scss"
+			],
+			[
+				"class",
+				"app/css/scss/classes/_classes.grid.foundation.scss"
+			],
+			[
+				"_funcmeas",
+				"app/css/scss/functions/_functions.measurement.scss"
+			],
+			[
+				"fun_funpa",
+				"app/css/scss/functions/_functions.parsing.scss"
+			],
+			[
+				"_function",
+				"app/css/scss/functions/_functions.global.scss"
+			],
+			[
+				"bow",
+				"bower.json"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"org",
+				"organise-projects.sublime-project"
+			],
+			[
+				"funcmat",
+				"app/css/scss/functions/_functions.measurement.scss"
+			],
+			[
+				"classglo",
+				"app/css/scss/classes/_classes.global.scss"
+			],
+			[
+				"bootstrapva",
+				"bower_components/bootstrap-sass/lib/_variables.scss"
+			],
+			[
+				"bootstrapgrid",
+				"bower_components/bootstrap-sass/lib/_grid.scss"
+			],
+			[
+				"funcma",
+				"app/css/scss/functions/_functions.measurement.scss"
+			],
+			[
+				"varsgl",
+				"app/css/scss/vars/_vars.global.default.scss"
+			],
+			[
+				"varglobal",
+				"app/css/scss/vars/_vars.global.scss"
+			],
+			[
+				"semanticgridscss",
+				"bower_components/semantic-ui-sass/app/assets/stylesheets/semantic-ui/collections/_grid.scss"
+			],
+			[
+				"parsing",
+				"app/css/scss/functions/_functions.parsing.scss"
+			],
+			[
+				"global",
+				"bower_components/foundation/scss/foundation/components/_global.scss"
+			],
+			[
+				"functgrid",
+				"app/css/scss/functions/_functions.grid.scss"
+			],
+			[
+				"mixingr",
+				"app/css/scss/mixins/_mixins.grid.scss"
+			],
+			[
+				"set",
+				"app/css/scss/setup.scss"
+			],
+			[
+				"styl",
+				"app/css/scss/style.scss"
+			],
+			[
+				"mainscs",
+				"app/Zss/scss/section/main.scss"
+			],
+			[
+				"bowe",
+				"bower.json"
+			],
+			[
+				"normal",
+				"bower_components/foundation/css/normalize.css"
+			],
+			[
+				"bo",
+				"app/php/body.php"
+			],
+			[
+				"foubutton",
+				"app/Zss/scss/mixins/_foundation.button.scss"
+			],
+			[
+				"button",
+				"app/Zss/scss/section/buttons.scss"
+			],
+			[
+				"norma",
+				"bower_components/foundation/scss/normalize.scss"
+			],
+			[
+				"foundglo",
+				"app/css/scss/mixins/_foundation.global.scss"
+			],
+			[
+				"foundbutt",
+				"app/css/scss/mixins/_foundation.button.scss"
+			],
+			[
+				"but",
+				"app/css/scss/section/buttons.scss"
+			],
+			[
+				"main",
+				"app/js/main.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"skelba",
+				"bower_components/skeleton-sass/bourbon/base.scss"
+			],
+			[
+				"stye",
+				"app/css/scss/style.scss"
+			],
+			[
+				"tombase",
+				"app/css/scss/_tomatao-base.scss"
+			],
+			[
+				"confi",
+				"app/js/config.js"
+			],
+			[
+				"titl",
+				"app/css/scss/section/title.scss"
+			],
+			[
+				"selec",
+				"app/css/scss/section/selects.scss"
+			],
+			[
+				"mains",
+				"app/css/scss/section/main.scss"
+			],
+			[
+				"foundationscss",
+				"bower_components/foundation/scss/foundation/components/_buttons.scss"
+			],
+			[
+				"found",
+				"app/css/scss/functions/_foundation.scss"
+			],
+			[
+				"bas",
+				"bower_components/skeleton-sass/sass/base.scss"
+			],
+			[
+				"appvar",
+				"app/css/scss/vendor/_vars.scss"
+			],
+			[
+				"appmixin",
+				"app/css/scss/vendor/_mixins.scss"
+			],
+			[
+				"gitignore",
+				"node_modules/grunt/node_modules/iconv-lite/.npmignore"
+			],
+			[
+				"ignor",
+				"bower_components/cajon/.npmignore"
+			],
+			[
+				"mix",
+				"bower_components/skeleton-sass/bourbon/_mixins.scss"
+			],
+			[
+				"base",
+				"bower_components/skeleton-sass/bourbon/base.scss"
+			],
+			[
+				"conf",
+				"js/config.js"
+			],
+			[
+				"seman",
+				"js/lib/vendor/semantic-ui/build/packaged/css/semantic.css"
+			],
+			[
+				"client",
+				"js/entities/client.js"
+			],
+			[
+				"re",
+				"test/lib/require.js"
+			],
+			[
+				"req",
+				"test/lib/require.js"
+			],
+			[
+				"book",
+				"desire/wanda/use-case/bookkeeper.js"
+			],
+			[
+				"tryer",
+				"desire/wanda/use-case/tryer.js"
+			],
+			[
+				"ui",
+				"desire/wanda/use-case/ui.js"
+			],
+			[
+				"desi",
+				"desire.js"
+			],
+			[
+				"wre",
+				"vendor/backbone/extra/backbone.wreqr.js"
+			],
+			[
+				"marione",
+				"vendor/marionette/components/marionette.helpers.js"
+			],
+			[
+				"marion",
+				"vendor/marionette/components/marionette.application.js"
+			],
+			[
+				"marionmod",
+				"vendor/marionette/components/marionette.module.js"
+			],
+			[
+				"test",
+				"app/scripts/templates/test.ejs"
+			],
+			[
+				"scss",
+				"app/styles/main.scss"
+			],
+			[
+				"index",
+				"vendor/swiftmailer/swiftmailer/test-suite/lib/simpletest/docs/simpletest.org/index.html"
+			],
+			[
+				"bbvali",
+				"public/js/vendor/backbone/extra/backbone-validation.js"
+			],
+			[
+				"backbone",
+				"public/js/vendor/backbone/backbone.1.1.0.js"
+			],
+			[
+				"tom",
+				"public/js/vendor/tomatao/tomatao.js"
+			],
+			[
+				"backbone.k",
+				"public/js/vendor/backbone/backbone.1.1.0.js"
+			],
+			[
+				"backbonemarionett",
+				"public/js/vendor/marionette/backbone.marionette.1.2.2.js"
+			],
+			[
+				"tsc",
+				"public/js/tscript.js"
+			],
+			[
+				"toma",
+				"public/js/vendor/tomatao/tomatao.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -3,8 +3,7 @@
 /////////////
 //
 
-$somecolor: lighten($primary-color, 50%);
-$header-family: Estrangelo_Edessa;
+$header-family: TerminalDosis-Medium;
 $body-family: Helvetica, Arial, sans-serif;
 
 /* Theme
@@ -21,9 +20,10 @@ body {
     font: {
         family: $body-family;
         size: 14px;
-        color: #555;
     }
-    @include placeholder(lighten($somecolor, 16%));
+    color: #555;
+    line-height: 1.7;
+    @include placeholder(lighten($primary-color, 16%));
 }
 
 
@@ -31,8 +31,11 @@ body {
 // Text //
 //////////
 a {
-    color: $somecolor;
+    color: $primary-color;
     text-decoration: none;
+    &:hover {
+        color: darken($primary-color, 8%);
+    }
 }
 
 h1, h2, h3, h4, h5, label {
@@ -66,11 +69,11 @@ h4, label {
 }
 
 h1, h3, h4 {
-    color: $somecolor - 178;
+    color: darken($primary-color, 16%);
 }
 
 h2, h5 {
-    color: $somecolor - 148;
+    color: complement($primary-color);
 }
 
 h2, h3, h5 {
@@ -86,7 +89,6 @@ nav > ul > li {
 nav li > a {
     width: 100%;
     height: 100%;
-    padding: 8px;
     position: absolute;
 }
 .nav-links {
@@ -102,7 +104,7 @@ label {
 }
 
 input, select, button, textarea {
-    color: darken($somecolor, 80%);
+    color: darken($primary-color, 80%);
     height: 30px;
     border-radius: 1px;
     border: 1px solid #999;
@@ -110,12 +112,12 @@ input, select, button, textarea {
     margin-bottom: 5px;
     outline: none;
     width: 100%;
-    @include box-shadow(1px 1px 1px rgba($somecolor,0.45));
+    @include box-shadow(1px 1px 1px rgba($primary-color,0.45));
     @include transition(border-color ease-in-out .15s,box-shadow ease-in-out .12s);
 
     &:hover, &:focus {
-        @include box-shadow(1px 1px 6px rgba($somecolor, 0.96));
-        border-color: darken($somecolor, 32%);;
+        @include box-shadow(1px 1px 6px rgba($primary-color, 0.96));
+        border-color: darken($primary-color, 32%);;
     }
     &:hover {
         border-color: #777;
@@ -131,8 +133,11 @@ select, button {
 }
 
 button {
-    background-color: invert(complement($somecolor));
-    color: lighten(complement($somecolor), 44%);
+    background-color: invert(complement($primary-color));
+    &:hover {
+        color: lighten($primary-color, 40%);
+        background-color: complement($primary-color);
+    }
 }
 
 // MOBILE STYLES

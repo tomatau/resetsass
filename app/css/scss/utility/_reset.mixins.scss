@@ -75,6 +75,13 @@
             spacing: 0;
         }
     }
+    ul, ol {
+        list-style-position: inside;
+    }
+    li ul,
+    li ol {
+        margin-left: 1em;
+    }
 }
 // global - not resetting fonts just yet
 @mixin reset-global {

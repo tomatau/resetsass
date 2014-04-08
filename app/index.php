@@ -47,7 +47,7 @@
         </nav>
 
         <div class="container">
-            <? //include './php/body.php' ?>
+            <? include './php/testpage.php' ?>
         </div>
 
         <footer id="close-page">

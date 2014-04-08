@@ -5,12 +5,13 @@
 @import "vars/_vars.global.default";
 @import "mixins/_mixins.global";
 
-// Media Queries
+// Functions
+
+// Mixins
 @import "mixins/_mixins.breakpoints";
 @import "mixins/_mixins.font";
 @import "mixins/_mixins.grid";
 @import "mixins/_mixins.navigation";
-
 
 // Grid
 @import "functions/_functions.grid";

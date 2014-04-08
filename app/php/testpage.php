@@ -1,291 +1,417 @@
+<noscript>
+<!-- Specify what happens if the user has JavaScript disabled. For example, you may want to display the lists in the right column instead of hiding them by default. -->
+</noscript>
+<div id="wrap">
+  <header>
+    <hgroup>
+      <!-- Example comment: Add valid elements within header group -->
+      <h1>HTML5 Elements</h1>
+    </hgroup>
+    <p>This is the global <code>&lt;header&gt;</code> element for this page, including the <code>&lt;hgroup&gt;</code> and <code>&lt;nav&gt;</code> elements.</p>
+    <nav>
+      <ul>
+        <li><a href="#" title="Global header link">Global <code>&lt;nav&gt;</code> link within the <code>&lt;header&gt;</code></a></li>
+        <li><a href="#" title="Global header link">Global <code>&lt;nav&gt;</code> link within the <code>&lt;header&gt;</code></a></li>
+        <li><a href="#" title="Global header link">Global <code>&lt;nav&gt;</code> link within the <code>&lt;header&gt;</code></a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section>
+    <header>
+      <h2>Section header</h2>
+    </header>
+    <article>
+      <header>
+        <h3>Article header</h3>
+      </header>
+      <div>
+        <p><a href="#" title="Download the HTML and asset files">Download the HTML and asset files</a> <br>
+          (ZIP does not include audio or video to reduce file size. <br>
+          You can download them from this page using your browser.)</p>
+        <h4>Purpose of this document:</h4>
+        <ul>
+          <li>Includes all the HTML5 elements as listed in the side column. </li>
+          <li>Minimal styling has been used. Use this document to test CSS files (base, reset, custom, etc.) on desired elements in various browsers.</li>
+          <li>Use this document to create comprehensive templates that need to use many of the common HTML5 elements.</li>
+          <li>Includes jQuery because it comes in handy.</li>
+          <li>Includes HTML5 compatibility for Internet Explorer.</li>
+          <li>Includes CSS files for screen, print, mobile and smart phones.</li>
+          <li>See <a href="#info" title="Reference links below">reference links below</a> for more information.</li>
+        </ul>
+        <p><span>Note:</span> This is only a guide &mdash; a starting point &mdash; if you will.</p>
+        <hr>
+        <h1>Header 1 &lt;h1&gt;</h1>
+        <p>This is an example paragrah used within this article for this document.</p>
+        <h2>Header 2 &lt;h2&gt;</h2>
+        <p>This is an example paragrah used within this article for this document.</p>
+        <h3>Header 3 &lt;h3&gt;</h3>
+        <p>This is an example paragrah used within this article for this document.</p>
+        <h4>Header 1 &lt;h4&gt;</h4>
+        <p>This is an example paragrah used within this article for this document.</p>
+        <h5>Header &lt;h5&gt;</h5>
+        <p>This is an example paragrah used within this article for this document.</p>
+        <h6>Header &lt;h6&gt;</h6>
+        <p>This is an example paragrah used within this article for this document.</p>
+        <hr>
+        <h4>Unordered list</h4>
+        <ul>
+          <li>Unordered list item</li>
+          <li>Unordered list item
+            <ul>
+              <li>Unordered list item</li>
+              <li>Unordered list item
+                <ul>
+                  <li>Unordered list item</li>
+                  <li>Unordered list item</li>
+                  <li>Unordered list item</li>
+                </ul>
+              </li>
+              <li>Unordered list item</li>
+            </ul>
+          </li>
+          <li>Unordered list item</li>
+        </ul>
+        <h4>Ordered list</h4>
+        <ol>
+          <li>Ordered list item</li>
+          <li>Ordered list item
+            <ol>
+              <li>Ordered list item</li>
+              <li>Ordered list item
+                <ol>
+                  <li>Ordered list item</li>
+                  <li>Ordered list item</li>
+                  <li>Ordered list item</li>
+                </ol>
+              </li>
+              <li>Ordered list item</li>
+            </ol>
+          </li>
+          <li>Ordered list item</li>
+        </ol>
+        <hr>
+        <h4>Address and blockquote:</h4>
+        <address>
+        700 Address Element Road<br>
+        Town, State Zip
+        </address>
+        <blockquote>This is a blockquote.</blockquote>
+        <hr>
+        <h4>Audio and video:</h4>
+        <p>Example of the <code>&lt;audio&gt;</code> element:</p>
+        <audio controls autobuffer>
+          <source src="#" />
+          <!-- Find the audio file here: http://www.kahvi.org/releases.php?release_number=285 -->
+          Your browser does not support OGG audio. Try using Safari, Chrome or Firefox.</audio>
+        <p>Example of the <code>&lt;video&gt;</code> element:</p>
+        <video src="#" controls autobuffer>
+          <!-- Find the video file here: http://www.polycrystal.org/lego/movies.html -->
+          <p>Try using Safari, Chrome or Firefox to view this video. You can also <a href="#">download the video</a>.</p>
+        </video>
+        <hr>
+        <h4>Figure:</h4>
+        <figure>
+          <p>Use an <code>&lt;img&gt;</code>, <code>&lt;video&gt;</code> or <code>&lt;table&gt;</code> as content for the <code>&lt;figure&gt;</code> element.</p>
+          <img src="#" width="240" height="160" alt="Watching the Sky by Nathaniel Reinhart"><br>
+          <figcaption><a href="#" title="Watching the Sky by Nathaniel Reinhart">Watching the Sky</a> by Nathaniel Reinhart (<code>&lt;figcaption&gt;</code>)</figcaption>
+        </figure>
+        <hr>
+        <h4>Form:</h4>
+        <form>
+          <fieldset>
+          <legend>Form legend</legend>
+          <label for="text-input">Text input</label>
+          <input id="text-input" type="text" placeholder="Placeholder">
+          <br>
+          <button title="button">Button</button>
+          <br>
+          <select>
+            <optgroup label="Options">
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+            </optgroup>
+            <optgroup label="Second Opt Grp">
+              <option value="Option 4">Option 4</option>
+              <option value="Option 5">Option 5</option>
+              <option value="Option 6">Option 6</option>
+            </optgroup>
+          </select>
+          <br>
+          <textarea></textarea>
+          <br>
+          </fieldset>
+        </form>
+        <hr>
+        <h4>Inline text formatting:</h4>
+        <p>This is the <abbr title="Abbreviation">ABBR</abbr> element.</p>
+        <p>This is the <b>b</b> element.</p>
+        <p>This is the <cite>cite</cite> element.</p>
+        <p>This is the <code>code</code> element.</p>
+        <p>This is the <del>del</del> element.</p>
+        <p>This is the <dfn>dfn</dfn> element.</p>
+        <p>This is the <em>em</em> element.</p>
+        <p>This is the <i>i</i> element.</p>
+        <p>This is the <ins>ins</ins> element.</p>
+        <p>This is the <kbd>kbd</kbd> element.</p>
+        <p>This is the
+          <mark>mark</mark>
+          element.</p>
+        <p>This is the <samp>samp</samp> element.</p>
+        <p>This is the <small>small</small> element.</p>
+        <p>This is the <strong>strong</strong> element.</p>
+        <p>This is the <sub>sub</sub> element.</p>
+        <p>This is the <sup>sup</sup> element.</p>
+        <p>This is the <var>var</var> element.</p>
+        <hr>
+        <h4>Meter:</h4>
+        <p>An example of the <code>&lt;meter&gt;</code> element: Your score is:
+          <meter value="91" min="0" max="100" low="40" high="90" optimum="100">A+</meter>
+        </p>
+        <hr>
+        <h4>Pre and span:</h4>
+        <p>This is the <code>&lt;pre&gt;</code> element:</p>
+        <pre>pre</pre>
+        <p>This is the <span>span</span> element. All <code>&lt;span&gt;</code> elements within this demo are set to <span>bold</span> for styling purposes only.</p>
+        <hr>
+        <h4>Table:</h4>
+        <table>
+          <thead>
+            <tr>
+              <th>Table header</th>
+              <th>Table header</th>
+              <th>Table header</th>
+            </tr>
+          </thead>
+          <tfoot>
+            <tr>
+              <td>Table footer</td>
+              <td>Table footer</td>
+              <td>Table footer</td>
+            </tr>
+          </tfoot>
+          <tbody>
+            <tr>
+              <td>Table data</td>
+              <td>Table data</td>
+              <td>Table data</td>
+            </tr>
+          </tbody>
+        </table>
+        <hr>
+        <h4>Time:</h4>
+        <p>The following is an example of the <code>&lt;time&gt;</code> element:</p>
+        <time datetime="2010-03-22T11:00-06:00">11AM in Texas on March 22, 2010</time>
+      </div>
+      <hr>
+      <footer class="article">
+        <p>This is the <code>&lt;footer&gt;</code> for this <code>&lt;article&gt;</code>.</p>
+        <h4><a id="info"></a>Details and summary:</h4>
+        <details>
+          <summary>Article Summary</summary>
+          <p>Details: Here is information and links related to / referenced within this article. This uses the <code>&lt;details&gt;</code> and <code>&lt;summary&gt;</code> elements.</p>
+          <ul>
+            <li><a href="#" title="HTML5doctor: HTML5 Glossary">HTML5doctor: HTML5 Glossary</a></li>
+            <li><a href="#" title="W3Schools: HTML 5 Tag Reference">W3Schools: HTML 5 Tag Reference</a></li>
+            <li><a href="#" title="jQuery provided by Google">jQuery provided by Google</a></li>
+            <li><a href="#" title="HTML5 enabling script">HTML5 enabling script</a> (for Internet Explorer)</li>
+            <li><a href="#" title="jQuery.LocalScroll">jQuery.LocalScroll</a> by Ariel Flesler</li>
+            <li>See source code for HTML and CSS for other references to stylesheet inspiration etc.</li>
+            <li>What's next? You need to check out these:
+              <ul>
+                <li> <a href="#" title="Dive into HTML5">Dive into HTML5</a></li>
+                <li> <a href="#" title="HTML 5 Demos and Examples">HTML 5 Demos and Examples</a> </li>
+              </ul>
+            </li>
+          </ul>
+        </details>
+      </footer>
+    </article>
+    <footer>
+      <p>This is the <code>&lt;footer&gt;</code> for this <code>&lt;section&gt; of this page/site</code>.</p>
+    </footer>
+  </section>
 
-<h1>Testing display of HTML elements</h1>
+  <section>
+    <header>
+      <h2>Section header</h2>
+    </header>
+    <p>This is a <code>dl</code> <dfn>definition list</dfn> for this section</p>
+    <dl>
+      <dt>Term</dt>
+      <dd>Definition</dd>
+      <dt>Term</dt>
+      <dd>Definition</dd>
+      <dt>Term</dt>
+      <dd>Definition</dd>
+      <dt>Term</dt>
+      <dd>Definition</dd>
+      <dt>Term</dt>
+      <dd>Definition</dd>
+      <dt>Term</dt>
+      <dd>Definition</dd>
+      <dt>Term</dt>
+      <dd>Definition</dd>
+      <dt>Term</dt>
+      <dd>Definition</dd>
+      <dt>Term</dt>
+      <dd>Definition</dd>
+      <dt>Term</dt>
+      <dd>Definition</dd>
+    </dl>
+  </section>
 
-<h2>This is 2nd level heading</h2>
-<p>This is a test paragraph.</p>
-<h3>This is 3rd level heading</h3>
-<p>This is a test paragraph.</p>
-<h4>This is 4th level heading</h4>
-<p>This is a test paragraph.</p>
-<h5>This is 5th level heading</h5>
-<p>This is a test paragraph.</p>
-<h6>This is 6th level heading</h6>
-<p>This is a test paragraph.</p>
+  <aside>
+    <header>
+      <h2>Aside header</h2>
+    </header>
+    <h3>The <code>&lt;aside&gt;</code> to the <code>&lt;section&gt;</code></h3>
+    <h4>Elements included in this demo:</h4>
+    <p><a id="toggle1" href="#" title="View / hide list of elements">View / hide</a> list of elements</p>
+    <p><span>Note:</span> Some elements are only used within the source code and not as examples.</p>
+    <ul id="list1">
+      <li><code>&lt;!-- Comments --&gt;</code></li>
+      <li><code>&lt;!DOCTYPE&gt;</code></li>
+      <li><code>&lt;a&gt;</code></li>
+      <li><code>&lt;abbr&gt;</code></li>
+      <li><code>&lt;address&gt;</code></li>
+      <li><code>&lt;article&gt;</code></li>
+      <li><code>&lt;aside&gt;</code></li>
+      <li><code>&lt;audio&gt;</code></li>
+      <li><code>&lt;b&gt;</code></li>
+      <li><code>&lt;blockquote&gt;</code></li>
+      <li><code>&lt;body&gt;</code></li>
+      <li><code>&lt;br&gt;</code></li>
+      <li><code>&lt;button&gt;</code></li>
+      <li><code>&lt;cite&gt;</code></li>
+      <li><code>&lt;code&gt;</code></li>
+      <li><code>&lt;del&gt;</code></li>
+      <li><code>&lt;details&gt;</code></li>
+      <li><code>&lt;dfn&gt;</code></li>
+      <li><code>&lt;div&gt;</code></li>
+      <li><code>&lt;em&gt;</code></li>
+      <li><code>&lt;fieldset&gt;</code></li>
+      <li><code>&lt;figcaption&gt;</code></li>
+      <li><code>&lt;figure&gt;</code></li>
+      <li><code>&lt;footer&gt;</code></li>
+      <li><code>&lt;form&gt;</code></li>
+      <li><code>&lt;h1&gt;</code> &ndash; <code>&lt;h6&gt;</code></li>
+      <li><code>&lt;head&gt;</code></li>
+      <li><code>&lt;header&gt;</code></li>
+      <li><code>&lt;hgroup&gt;</code></li>
+      <li><code>&lt;hr&gt;</code></li>
+      <li><code>&lt;html&gt;</code></li>
+      <li><code>&lt;i&gt;</code></li>
+      <li><code>&lt;img&gt;</code></li>
+      <li><code>&lt;input&gt;</code></li>
+      <li><code>&lt;ins&gt;</code></li>
+      <li><code>&lt;kbd&gt;</code></li>
+      <li><code>&lt;label&gt;</code></li>
+      <li><code>&lt;legend&gt;</code></li>
+      <li><code>&lt;li&gt;</code></li>
+      <li><code>&lt;link&gt;</code></li>
+      <li><code>&lt;mark&gt;</code></li>
+      <li><code>&lt;meta&gt;</code></li>
+      <li><code>&lt;meter&gt;</code></li>
+      <li><code>&lt;nav&gt;</code></li>
+      <li><code>&lt;noscript&gt;</code></li>
+      <li><code>&lt;ol&gt;</code></li>
+      <li><code>&lt;optgroup&gt;</code></li>
+      <li><code>&lt;option&gt;</code></li>
+      <li><code>&lt;p&gt;</code></li>
+      <li><code>&lt;pre&gt;</code></li>
+      <li><code>&lt;q&gt;</code></li>
+      <li><code>&lt;samp&gt;</code></li>
+      <li><code>&lt;script&gt;</code></li>
+      <li><code>&lt;section&gt;</code></li>
+      <li><code>&lt;select&gt;</code></li>
+      <li><code>&lt;small&gt;</code></li>
+      <li><code>&lt;source&gt;</code></li>
+      <li><code>&lt;span&gt;</code></li>
+      <li><code>&lt;strong&gt;</code></li>
+      <li><code>&lt;style&gt;</code></li>
+      <li><code>&lt;sub&gt;</code></li>
+      <li><code>&lt;summary&gt;</code></li>
+      <li><code>&lt;sup&gt;</code></li>
+      <li><code>&lt;table&gt;</code></li>
+      <li><code>&lt;tbody&gt;</code></li>
+      <li><code>&lt;td&gt;</code></li>
+      <li><code>&lt;textarea&gt;</code></li>
+      <li><code>&lt;tfoot&gt;</code></li>
+      <li><code>&lt;th&gt;</code></li>
+      <li><code>&lt;thead&gt;</code></li>
+      <li><code>&lt;time&gt;</code></li>
+      <li><code>&lt;title&gt;</code></li>
+      <li><code>&lt;tr&gt;</code></li>
+      <li><code>&lt;ul&gt;</code></li>
+      <li><code>&lt;var&gt;</code></li>
+      <li><code>&lt;video&gt;</code></li>
+      <li><code>&lt;dd&gt;</code></li>
+      <li><code>&lt;dl&gt;</code></li>
+      <li><code>&lt;dt&gt;</code></li>
+    </ul>
+    <h4>Elements not included in this demo:</h4>
+    <p><a id="toggle2" href="#" title="View / hide list of elements">View / hide</a> list of elements</p>
+    <ul id="list2">
+      <li><code>&lt;area&gt;</code></li>
+      <li><code>&lt;base&gt;</code></li>
+      <li><code>&lt;bdo&gt;</code></li>
+      <li><code>&lt;canvas&gt;</code></li>
+      <li><code>&lt;caption&gt;</code></li>
+      <li><code>&lt;col&gt;</code></li>
+      <li><code>&lt;colgroup&gt;</code></li>
+      <li><code>&lt;command&gt;</code></li>
+      <li><code>&lt;datalist&gt;</code></li>
+      <li><code>&lt;embed&gt;</code></li>
+      <li><code>&lt;iframe&gt;</code></li>
+      <li><code>&lt;keygen&gt;</code></li>
+      <li><code>&lt;map&gt;</code></li>
+      <li><code>&lt;menu&gt;</code></li>
+      <li><code>&lt;object&gt;</code></li>
+      <li><code>&lt;output&gt;</code></li>
+      <li><code>&lt;param&gt;</code></li>
+      <li><code>&lt;progress&gt;</code></li>
+      <li><code>&lt;rp&gt;</code></li>
+      <li><code>&lt;rt&gt;</code></li>
+      <li><code>&lt;ruby&gt;</code></li>
+    </ul>
+    <h4>Elements not supported by HTML5:</h4>
+    <p><a id="toggle3" href="#" title="View / hide list of elements">View / hide</a> list of elements</p>
+    <ul id="list3">
+      <li><code>&lt;acronym&gt;</code></li>
+      <li><code>&lt;applet&gt;</code></li>
+      <li><code>&lt;basefont&gt;</code></li>
+      <li><code>&lt;big&gt;</code></li>
+      <li><code>&lt;center&gt;</code></li>
+      <li><code>&lt;dir&gt;</code></li>
+      <li><code>&lt;font&gt;</code></li>
+      <li><code>&lt;frame&gt;</code></li>
+      <li><code>&lt;frameset&gt;</code></li>
+      <li><code>&lt;noframes&gt;</code></li>
+      <li><code>&lt;s&gt;</code></li>
+      <li><code>&lt;strike&gt;</code></li>
+      <li><code>&lt;tt&gt;</code></li>
+      <li><code>&lt;u&gt;</code></li>
+      <li><code>&lt;xmp&gt;</code></li>
+    </ul>
+  </aside>
 
-<h2>Basic block level elements</h2>
-
-<p>This is a normal paragraph (<code>p</code> element).
-To add some length to it, let us mention that this page was
-primarily written for testing the effect of <strong>user style sheets</strong>.
-You can use it for various other purposes as well, like just checking how
-your browser displays various HTML elements by default.
-It can also be useful when testing conversions from HTML
-format to other formats, since some elements can go wrong then.</p> 
-<p>This is another paragraph. I think it needs to be added that
-the set of elements tested is not exhaustive in any sense. I have selected
-those elements for which it can make sense to write user style sheet rules,
-in my opionion.</p>
-<div>This is a <code>div</code> element. Authors may use such elements instead
-of paragraph markup for various reasons. (End of <code>div</code>.)</div>
-<blockquote><p>This is a block quotation containing a single
-paragraph. Well, not quite, since this is not <em>really</em>
-quoted text, but I hope you understand the point. After all, this
-page does not use HTML markup very normally anyway.</p></blockquote>
-<p>The following contains address information about the author, in an <code>address</code>
-element.</p>
-<address>
-<a href="http://www.cs.tut.fi/~jkorpela/personal.html" lang="fi" hreflang="en">Jukka Korpela</a>,
-<a href="mailto:jkorpela@cs.tut.fi">jkorpela@cs.tut.fi</a><br>
-Päivänsäteenkuja 4 A, Espoo, Finland
-</address>
-
-<h2>Lists</h2>
-
-<p>This is a paragraph before an <strong>unnumbered</strong> list (<code>ul</code>). Note that
-the spacing between a paragraph and a list before or after that is hard
-to tune in a user style sheet. You can't guess which paragraphs are
-logically related to a list, e.g. as a "list header".</p>
-<ul>
-  <li> One.
-  </li><li> Two.
-  </li><li> Three. Well, probably this list item should be longer. Note that
-for short items lists look better if they are compactly presented,
-       whereas for long items, it would be better to have more vertical spacing between items.
-  </li><li> Four. This is the last item in this list.
-       Let us terminate the list now without making any more fuss about it.
-</li></ul>
-<p>The following is a <code>menu</code> list:</p>
-<menu>
-  <li> One.
-  </li><li> Two.
-  </li><li> Three. Well, probably this list item should be longer so that it will
-probably wrap to the next line in rendering.
-</li></menu>
-<p>The following is a <code>dir</code> list:</p>
-<dir>
-  <li> One.
-  </li><li> Two.
-  </li><li> Three. Well, probably this list item should be longer so that it will
-probably wrap to the next line in rendering.
-</li></dir>
-
-<p>This is a paragraph before a <strong>numbered</strong> list (<code>ol</code>). Note that
-the spacing between a paragraph and a list before or after that is hard
-to tune in a user style sheet. You can't guess which paragraphs are
-logically related to a list, e.g. as a "list header".</p>
-<ol>
-  <li> One.
-  </li><li> Two.
-  </li><li> Three. Well, probably this list item should be longer. Note that if
-items are short, lists look better if they are compactly presented,
-       whereas for long items, it would be better to have more vertical spacing between items.
-  </li><li> Four. This is the last item in this list.
-       Let us terminate the list now without making any more fuss about it.
-</li></ol>
-
-<p>This is a paragraph before a <strong>definition</strong> list (<code>dl</code>).
-In principle, such a list should consist of <em>terms</em> and associated 
-definitions.
-But many authors use <code>dl</code> elements for fancy "layout" things. Usually the
-effect is not <em>too</em> bad, if you design user style sheet rules for <code>dl</code>
-which are suitable
-for real definition lists.
-</p><dl>
-  <dt> recursion
-  </dt><dd> see recursion
-  </dd><dt> recursion, indirect
-  </dt><dd> see indirect recursion
-  </dd><dt> indirect recursion
-  </dt><dd> see recursion, indirect
-  </dd><dt> term
-  </dt><dd> a word or other expression taken into specific use in
-       a well-defined meaning, which is often defined rather rigorously, even
-       formally, and may differ quite a lot from an everyday meaning
-</dd></dl>
-
-<h2>Text-level markup</h2>
-
-<ul>
-  <li> <abbr title="Cascading Style Sheets">CSS</abbr> (an abbreviation;
- <code>abbr</code> markup used)
-  </li><li> <acronym title="radio detecting and ranging">radar</acronym> (an acronym; <code>acronym</code> markup used)
-  </li><li> <b>bolded</b> (<code>b</code> markup used - just bolding with unspecified
-       semantics)
-  </li><li> <big>big thing</big> (<code>big</code> markup used)
-  </li><li> <font size="6">large size</font> (<code>font size=6</code> markup used)
-  </li><li> <font face="Courier">Courier font</font> (<code>font face=Courier</code> markup used)
-  </li><li> <font color="red">red text</font> (<code>font color=red</code> markup used)
-  </li><li> <cite>Origin of Species</cite> (a book title;
-       <code>cite</code> markup used)
-  </li><li> <code>a[i] = b[i] + c[i);</code> (computer code; <code>code</code> markup used)
-  </li><li> here we have some <del>deleted</del> text (<code>del</code> markup used)
-  </li><li> an <dfn>octet</dfn> is an entity consisting of eight bits
-       (<code>dfn</code> markup used for the term being defined)
-  </li><li> this is <em>very</em> simple (<code>em</code> markup used for emphasizing
-       a word)
-  </li><li> <i lang="la">Homo sapiens</i> (should appear in italics;  <code>i</code> markup used)
-  </li><li> here we have some <ins>inserted</ins> text (<code>ins</code> markup used)
-  </li><li> type <kbd>yes</kbd> when prompted for an answer (<code>kbd</code> markup
-       used for text indicating keyboard input)
-  </li><li> <q>Hello!</q> (<code>q</code> markup used for quotation)
-  </li><li> He said: <q>She said <q>Hello!</q></q> (a quotation inside a quotation)
-  </li><li> you may get the message <samp>Core dumped</samp> at times
-       (<code>samp</code> markup used for sample output)
-  </li><li> <small>this is not that important</small> (<code>small</code> markup used)
-  </li><li> <strike>overstruck</strike> (<code>strike</code> markup used; note:
-       <code>s</code> is a nonstandard synonym for <code>strike</code>)
-  </li><li> <strong>this is highlighted text</strong> (<code>strong</code>
-       markup used)
-  </li><li> In order to test how subscripts and superscripts (<code>sub</code> and
-       <code>sup</code> markup) work inside running text, we need some
-       dummy text around constructs like x<sub>1</sub> and H<sub>2</sub>O
-       (where subscripts occur). So here is some fill so that
-       you will (hopefully) see whether and how badly the subscripts
-       and superscripts mess up vertical spacing between lines.
-       Now superscripts: M<sup>lle</sup>, 1<sup>st</sup>, and then some
-       mathematical notations: e<sup>x</sup>, sin<sup>2</sup> <i>x</i>,
-       and some nested superscripts (exponents) too:
-       e<sup>x<sup>2</sup></sup> and f(x)<sup>g(x)<sup>a+b+c</sup></sup>
-       (where 2 and a+b+c should appear as exponents of exponents).
-  </li><li> <tt>text in monospace font</tt> (<code>tt</code> markup used)
-  </li><li> <u>underlined</u> text (<code>u</code> markup used)
-  </li><li> the command <code>cat</code> <var>filename</var> displays the
-       file specified by the <var>filename</var> (<code>var</code> markup
-       used to indicate a word as a variable).
-</li></ul>
-
-<p>Some of the elements tested above are typically displayed in a monospace
-font, often using the <em>same</em> presentation for all of them. This
-tests whether that is the case on your browser:</p>
-
-<ul>
-  <li> <code>This is sample text inside code markup</code>
-  </li><li> <kbd>This is sample text inside kbd markup</kbd>
-  </li><li> <samp>This is sample text inside samp markup</samp>
-  </li><li> <tt>This is sample text inside tt markup</tt>
-</li></ul>
-<h2>Links</h2>
-<ul>
-<li> <a href="http://www.cs.tut.fi/~jkorpela/index.html">main page</a>
-</li><li> <a href="http://www.unicode.org/versions/Unicode4.0.0/ch06.pdf" title="Writing Systems and Punctuation" type="application/pdf">Unicode Standard, chapter&nbsp;6</a>
-</li></ul>
-
-<p>This is a text paragraph that contains some
-inline links. Generally, inline links (as opposite to e.g. links
-lists) are problematic
-from the
-<a href="http://www.useit.com/">usability</a> perspective,
-but they may have use as
-“incidental”, less relevant links. See the document
-<cite><a href="http://www.cs.tut.fi/~jkorpela/www/links.html">Links Want To Be Links</a></cite>.</p>
-
-<h2>Forms</h2>
-
-<form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi">
-<div>
-<input type="hidden" name="hidden field" value="42">
-This is a form containing various fields (with some initial
-values (defaults) set, so that you can see how input text looks
-like without actually typing it):</div>
-<div><label for="but">Button:
-<button id="but" type="submit" name="foo" value="bar">A cool<br>button</button></label></div>
-<div><label for="f0">Reset button:
-<input id="f0" type="reset" name="reset" value="Reset"></label></div>
-<div><label for="f1">Single-line text input field: <input id="f1" name="text" size="20" value="Default text."></label></div>
-<div><label for="f2">Multi-line text input field (textarea):</label><br>
-<textarea id="f2" name="textarea" rows="2" cols="20">Default text.
-</textarea></div>
-<div>The following two radio buttons are inside
-a <code>fieldset</code> element with a <code>legend</code>:</div>
-<fieldset>
-<legend>Legend</legend>
-<div><label for="f3"><input id="f3" type="radio" name="radio" value="1"> Radio button 1</label></div>
-<div><label for="f4"><input id="f4" type="radio" name="radio" value="2" checked=""> Radio button 2 (initially checked)</label></div>
-</fieldset>
-<fieldset>
-<legend>Check those that apply</legend>
-<div><label for="f5"><input id="f5" type="checkbox" name="checkbox"> Checkbox 1</label></div>
-<div><label for="f6"><input id="f6" type="checkbox" name="checkbox2" checked=""> Checkbox 2 (initially checked)</label></div>
-</fieldset>
-<div><label for="f10">A <code>select</code> element with <code>size="1"</code>
-(dropdown box):
-<select id="f10" name="select1" size="1">
-<option>one
-</option><option selected="">two (default)
-</option><option>three
-</option></select></label></div>
-<div><label for="f11">A <code>select</code> element with <code>size="3"</code>
-(listbox):</label><br>
-<select id="f11" name="select2" size="3">
-<option>one
-</option><option selected="">two (default)
-</option><option>three
-</option></select></div>
-<div><label for="f99">Submit button:
-<input id="f99" type="submit" name="submit" value="Just a test"></label></div>
-</form>
-
-<h2>Tables</h2>
-
-<p>The following table has a caption. The first row and the first column
-contain table header cells (<code>th</code> elements) only; other cells
-are data cells (<code>td</code> elements), with <code>align="right"</code>
-attributes:</p>
-
-<table summary="Each row names a Nordic country and specifies its total area and land area, in square kilometers">
-<caption>Sample table: Areas of the Nordic countries, in sq km</caption>
-<tbody><tr><th scope="col">Country</th> <th scope="col">Total area</th> <th scope="col">Land area</th>
-</tr><tr><th scope="row">Denmark</th> <td align="RIGHT"> 43,070 </td><td align="RIGHT"> 42,370</td></tr>
-<tr><th scope="row">Finland</th> <td align="RIGHT">337,030 </td><td align="RIGHT">305,470</td></tr>
-<tr><th scope="row">Iceland</th> <td align="RIGHT">103,000 </td><td align="RIGHT">100,250</td></tr>
-<tr><th scope="row">Norway</th>  <td align="RIGHT">324,220 </td><td align="RIGHT">307,860</td></tr>
-<tr><th scope="row">Sweden</th>  <td align="RIGHT">449,964 </td><td align="RIGHT">410,928</td></tr>
-</tbody></table>
-
-<h2>Character test</h2>
-<p>The following table has some sample characters with
-annotations. If the browser’s default font does not
-contain all of them, they may get displayed using backup fonts.
-This may cause stylistic differences, but it should not
-prevent the characters from being displayed at all.</p>
-
-<table>
-<tbody><tr><th>Char. </th><th>Explanation </th><th>Notes
-</th></tr><tr><td>ê </td><td>e with circumflex </td><td>Latin 1 character, should be ok
-</td></tr><tr><td>— </td><td>em dash </td><td>Windows Latin 1 character, should be ok, too
-</td></tr><tr><td>&#256; </td><td>A with macron (line above) </td><td>Latin Extended-A character, not present in all fonts
-</td></tr><tr><td>&#937; </td><td>capital omega </td><td>A Greek letter
-</td></tr><tr><td>&#8722; </td><td>minus sign </td><td>Unicode minus
-</td></tr><tr><td>&#8960; </td><td>diameter sign </td><td>relatively rare in fonts
-</td></tr></tbody></table>
-
-<h2>Hyphenation</h2>
-<p>In the following, a width setting should cause some hyphenation,
-depending on support to various methods of hyphenation.</p>
-
-<h3>CSS-based hyphenation</h3>
-<p class="limited hyphens">Until recently the great majority of naturalists believed that species were immutable productions, and had been separately created. This view has been ably maintained by many authors.
-
-</p><h3>JavaScript-driven hyphenation</h3>
-<p class="limited hyphenate">Until re­cently the great ma­jor­ity of nat­u­ral­ists be­lieved that species were im­mutable pro­duc­tions, and had been sep­a­rately cre­ated. This view has been ably main­tained by many au­thors.
-
-</p><h3>Explicit hyphenation hints (soft hyphens)</h3>
-<p class="limited">Un­til re­cent­ly the great
- ma­jor­i­ty of nat­u­ral­ists
-be­lieved that spe­cies were
- im­mu­ta­ble
- pro­duc­tions,
- and had been sep­a­rate­ly cre­at­ed.
-This view has been ably main­tain­ed by many au­thors.
-
-
-</p><hr title="Information about this document">
-
-<address>
-<a href="http://www.cs.tut.fi/~jkorpela/personal.html" hreflang="en" lang="fi">Jukka Korpela</a>
-</address>
-<div>
-<a title="ISO 8601, the date and time representation standard" href="http://www.cs.tut.fi/~jkorpela/iso8601.html">
-Date</a> of creation: 2000-09-15.
-Last update: 2013-03-21.
+  <footer>
+    <header>
+      <h2>Footer header</h2>
+    </header>
+    <p>This is the global <code>&lt;footer&gt;</code> for this page/site.</p>
+    <nav>
+      <ul>
+        <li><a href="#" title="Global footer link">Global footer <code>&lt;nav&gt;</code> link</a></li>
+        <li><a href="#" title="Global footer link">Global footer <code>&lt;nav&gt;</code> link</a></li>
+        <li><a href="#" title="Global footer link">Global footer <code>&lt;nav&gt;</code> link</a></li>
+      </ul>
+    </nav>
+    <p>This document was prepared by <a href="#" title="Get started with HTML5">the Ackernaut</a> for the benefit of the web development community. <br>
+      If you have suggestions on how to improve this page let me know: terry / at / ackernaut / dot / com<br>
+      Feel free to borrow and share a link! <br>
+      Created on March 22, 2010 | Last updated on April 9, 2010</p>
+  </footer>
 </div>

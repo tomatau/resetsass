@@ -52,6 +52,15 @@ table {
   border-spacing: 0;
 }
 
+ul, ol {
+  list-style-position: inside;
+}
+
+li ul,
+li ol {
+  margin-left: 1em;
+}
+
 /* Start of Grid Classes
 ################## */
 .container {
@@ -112,39 +121,43 @@ label {
 
 ################## */
 @font-face {
-  font-family: Estrangelo_Edessa;
+  font-family: TerminalDosis-Medium;
   font-weight: normal;
   font-style: normal;
-  src: url("font-url(Estrangelo_Edessa).eot");
-  src: url("font-url(Estrangelo_Edessa).eot?#iefix") format("embedded-opentype"), url("font-url(Estrangelo_Edessa).woff") format("woff"), url("font-url(Estrangelo_Edessa).ttf") format("truetype"), url("font-url(Estrangelo_Edessa).svg#Estrangelo_Edessa") format("svg");
+  src: url("/fonts/terminaldosis-medium-webfont.eot");
+  src: url("/fonts/terminaldosis-medium-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/terminaldosis-medium-webfont.woff") format("woff"), url("/fonts/terminaldosis-medium-webfont.ttf") format("truetype"), url("/fonts/terminaldosis-medium-webfont.svg#TerminalDosis-Medium") format("svg");
 }
 html,
 body {
   height: 100%;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
-  font-color: #555;
+  color: #555;
+  line-height: 1.7;
 }
 html::-moz-placeholder,
 body::-moz-placeholder {
-  color: white;
+  color: #dc7474;
 }
 html:-ms-input-placeholder,
 body:-ms-input-placeholder {
-  color: white;
+  color: #dc7474;
 }
 html::-webkit-input-placeholder,
 body::-webkit-input-placeholder {
-  color: white;
+  color: #dc7474;
 }
 
 a {
-  color: #fdfef7;
+  color: #cc3333;
   text-decoration: none;
+}
+a:hover {
+  color: #ab2b2b;
 }
 
 h1, h2, h3, h4, h5, label {
-  font-family: Estrangelo_Edessa;
+  font-family: TerminalDosis-Medium;
   display: block;
 }
 
@@ -166,11 +179,11 @@ h4, label {
 }
 
 h1, h3, h4 {
-  color: #4b4c45;
+  color: #8b2323;
 }
 
 h2, h5 {
-  color: #696a63;
+  color: #33cccc;
 }
 
 h2, h3, h5 {
@@ -184,7 +197,6 @@ nav > ul > li {
 nav li > a {
   width: 100%;
   height: 100%;
-  padding: 8px;
   position: absolute;
 }
 
@@ -193,7 +205,7 @@ nav li > a {
 }
 
 input, select, button, textarea {
-  color: #485706;
+  color: black;
   height: 30px;
   border-radius: 1px;
   border: 1px solid #999;
@@ -201,15 +213,15 @@ input, select, button, textarea {
   margin-bottom: 5px;
   outline: none;
   width: 100%;
-  -webkit-box-shadow: 1px 1px 1px rgba(253, 254, 247, 0.45);
-  box-shadow: 1px 1px 1px rgba(253, 254, 247, 0.45);
+  -webkit-box-shadow: 1px 1px 1px rgba(204, 51, 51, 0.45);
+  box-shadow: 1px 1px 1px rgba(204, 51, 51, 0.45);
   -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.12s;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.12s;
 }
 input:hover, input:focus, select:hover, select:focus, button:hover, button:focus, textarea:hover, textarea:focus {
-  -webkit-box-shadow: 1px 1px 6px rgba(253, 254, 247, 0.96);
-  box-shadow: 1px 1px 6px rgba(253, 254, 247, 0.96);
-  border-color: #d8f55d;
+  -webkit-box-shadow: 1px 1px 6px rgba(204, 51, 51, 0.96);
+  box-shadow: 1px 1px 6px rgba(204, 51, 51, 0.96);
+  border-color: #491212;
 }
 input:hover, select:hover, button:hover, textarea:hover {
   border-color: #777;
@@ -224,8 +236,11 @@ select, button {
 }
 
 button {
-  background-color: #070801;
-  color: white;
+  background-color: #cc3333;
+}
+button:hover {
+  color: #f5d6d6;
+  background-color: #33cccc;
 }
 
 #wrapper {
@@ -286,7 +301,7 @@ button {
 }
 
 footer#close-page {
-  background-color: #323231;
+  background-color: #0a2929;
   padding: 10px;
   color: white;
   text-align: center;
@@ -314,11 +329,11 @@ footer#close-page #disclaimer {
   margin-top: -9px;
 }
 #footer-nav h3, #footer-nav .icon {
-  font-family: Estrangelo_Edessa;
+  font-family: TerminalDosis-Medium;
   float: left;
 }
 #footer-nav h3 {
-  color: white;
+  color: #f5d6d6;
 }
 #footer-nav .icon {
   padding: 0px;
@@ -332,7 +347,7 @@ footer#close-page #disclaimer {
   padding: 10px;
 }
 #footer-nav .extra {
-  color: #cecfc8;
+  color: #a32929;
   float: right;
   width: 100%;
 }
@@ -346,9 +361,6 @@ footer#close-page #disclaimer {
 }
 #closing-nav li {
   margin-bottom: 10px;
-}
-#closing-nav li a {
-  top: -8px;
 }
 
 div#disclaimer p {
@@ -379,6 +391,7 @@ div#disclaimer p {
 }
 #main-navigation .nav-links li a {
   position: static;
+  padding: 8px;
 }
 
 /* Larger devices

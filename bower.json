@@ -25,7 +25,7 @@
     "requirejs-text": "latest",
     "skeleton-sass": "latest",
     "wire": "~0.10.6",
-    "when": "~2.*",
+    "when": "~3.1.*",
     "semantic-ui-sass": "*",
     "solved-by-flexbox": "https://github.com/philipwalton/solved-by-flexbox.git"
   },

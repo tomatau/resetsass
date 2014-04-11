@@ -3,7 +3,7 @@
 /////////////
 //
 
-$header-family: TerminalDosis-Medium;
+$header-family: Arial;//TerminalDosis-Medium;
 $body-family: Helvetica, Arial, sans-serif;
 
 /* Theme
@@ -105,10 +105,9 @@ label {
 
 input, select, button, textarea {
     color: darken($primary-color, 80%);
-    height: 30px;
     border-radius: 1px;
     border: 1px solid #999;
-    padding: 4px 12px;
+    padding: 8px 12px;
     margin-bottom: 5px;
     outline: none;
     width: 100%;

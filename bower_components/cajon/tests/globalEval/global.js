@@ -1,3 +1,0 @@
-var myGlobal = {
-  name: 'myGlobal'
-};

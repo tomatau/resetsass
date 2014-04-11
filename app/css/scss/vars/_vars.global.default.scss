@@ -14,8 +14,8 @@ $bg-color: #ffffff;
 $small-font: 80%; // needed in reset
 $font-size: rem(17px);
 $fonts: (
-    "/fonts/estre-webfont" "Estrangelo_Edessa",
-    "/fonts/terminaldosis-medium-webfont" "TerminalDosis-Medium"
+    "./fonts/estre-webfont" "Estrangelo_Edessa",
+    "./fonts/terminaldosis-medium-webfont" "TerminalDosis-Medium"
 );
 $nice-text-padding: $font-size *.67;
 
